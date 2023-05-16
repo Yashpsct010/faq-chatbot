@@ -31,9 +31,16 @@
             color: white;
             
         }
+        .close{
+            background-image:url('https://github.com/Yashpsct010/faq-chatbot/blob/master/cross-button.png');
+            border-radius: 16px;
+            height:100px;
+            width:100px;
+        }
     </style>
 </head>
 <body>
+    <button class="close" id="close"></button>
 <div class="faq" style="color:white;border: 1px ridge purple;border-radius:16px 0px 16px 0px;background: linear-gradient(90deg, #234EB0 3.66%, #9010B0 100%);width:20rem;padding:2%;position: fixed;bottom: 2rem;right: 2rem;">
     <h1>FAQ Chatbot</h1>
         <div id="chatContainer"></div>
